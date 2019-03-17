@@ -765,11 +765,20 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1rem;
 		padding-left: 0;
+	
+	}
+
+
+
+	#contact .actions li input:hover{
+		background-color: rosybrown;
+		font-weight: bold;
 	}
 
 		ul.actions li {
 			padding: 0 0 0 1rem;
 			vertical-align: middle;
+			transition: 1s;
 		}
 
 		ul.actions.special {
